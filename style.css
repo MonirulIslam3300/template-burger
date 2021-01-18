@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+	background-image: url(image/background.png);
+}
+.header-top{
+	padding-top: 10px;
+	position: relative;
+}
+.header-top .logo{
+	width: 30%;
+	float: left;
+	padding-left: 45px;
+}
+.header-top .right{
+	width: 70%;
+	float: left;
+}
+.header-top:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header-top .right .menu{
+	float: right;
+	padding-right: 45px;
+}
+.header-top .right .menu .delivary{
+	width: 55%;
+	margin-left: auto;
+}
+.header-top .right .menu .delivary img{
+	float: left;
+	padding-right: 10px;
+}
+.header-top .right .menu .delivary p{
+	float: left;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+.header-top .right .menu .delivary:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+.header-top .right .menu nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header-top .right .menu nav ul li{
+	float: left;
+	padding-left: 55px;
+	text-transform: uppercase;
+}
+.header-top .right .menu nav ul li a {
+	font-family: BebasNeue;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #3d2514;
+	letter-spacing: 2px;
+}
+/*header top design finish here*/
+/*hero hare style start from here*/
+.hero{
+	position: relative;
+}
+.hero .text {
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+.hero .text p{
+	font-family: BebasNeue;
+	text-transform: uppercase;
+	font-size: 20px;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding: 16px;
+	margin: 0;
+}
+.hero .text h1{
+	font-family: AlfaSlabOne;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 155px;
+	margin: 0;
+	display: inline;
+}
+.hero .text h2{
+
+	font-family: AlfaSlabOne;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 107px;
+	margin: 0;
+	display: inline;
+}
+.hero .images {
+    position: absolute;
+    top: -215px;
+    right: 118px;
+}
+.hero .images img{
+	width: 100%;
+}
+.price {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #bf2222;
+    position: absolute;
+    top: 410px;
+    right: 477px;
+}
+.price .text{
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	border:1px dashed white;
+	margin: auto;
+	padding-top:4px;
+	position: absolute;
+	top: 0;
+	right:0;
+	bottom: 0;
+	left:0;
+}
+.price .text h1{
+	font-size: 52px;
+	font-family: BebasNeue;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-bottom: 0;
+}
+.price .text h1 span{
+	font-size: 30px;
+}
+.price .text h3{
+	font-size: 36px;
+	font-family: BebasNeue;
+	padding-left: 10px;
+	margin-bottom: 0;
+	margin-top: 5px;
+	line-height: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+/*first section start*/
+.container{
+	width:85%;margin:100px auto;
+}
+ .col-50{width:48%;border-radius:10px;float:left;height:410px;}
+ .container .button{text-align:center}
+ .container .button a {
+    padding: 12px 30px;
+    background: #FFC135;
+    color: #42200b;
+    font-size: 22px;
+  	font-family: AlfaSlabOne;
+     text-align: center;
+    display: inline-block;
+    margin-top: 93px;
+    text-decoration: none;
+}
+.second-section .h1{
+  font-family: AlfaSlabOne;
+}
+
+
+
+/*first section closed*/
+
+#second-section{
+	text-align:center;
+}
+#second-section .col-33 {
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+}
+section h1 {
+    font-size: 65px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #42200b;
+    letter-spacing: 2px;
+}
+ section p {
+    font-size: 19px;
+    color: #151515;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    line-height: 2;
+	    width: 80%;
+    margin: auto;
+}
+section button {
+    padding: 10px 35px;
+    background: #e60a33;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+}
+#second-section .col-33 p {
+    line-height: 25px;
+    width: 80%;
+    margin: 28px auto;
+}
+#second-section .col-33 h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+}
+
+/*SECOND SECTION CLOSED*/
+
+h3 {
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 50px;
+}
+
+.third-sectionRight {
+    margin-top: 80px;
+}
+
+.third-sectionLeft.float-left {
+    margin-top: 82px;
+}
+
+
+
+/*THIRD SECTION CLOSED*/
+
+
+
+
+
+
+/*FORTH SECTION CLOSED*/
+
+.h4 {
+    margin-top: 130px;
+}
+
+form {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -685px;
+    padding: 0px;
+}
+
+.right-image {
+    float: right;
+    margin-top: -502px;
+}
+.col-48 {
+    padding: 60px;
+}
+.row .button {
+    MARGIN-TOP: 55px;
+    margin-bottom: 67px;
+    margin-left: 55px;
+}
+/*footer section start*/
+
+footer {
+    background: url(image/footer-image.jpg);
+}
+p.mt-5 {
+    color: white;
+}
+
+.location {
+    color: white;
+    text-align: center;
+	margin-top: 25%;
+	font-size: 25px;
+}
+
+span.far.fa-envelope-alt {
+    margin-left: -117px;
+}
+
+span.text {
+    margin-left: 31px;
+}
+
+.top-image {
+    margin-top: 98px;
+    color: #efe3e3;
+}
+
+p {
+    margin-bottom: 100px;
+    color: wheat;
+}
+
+.mb-10.p {
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+.right-bottom-icon {
+    margin-top: 142px;
+    margin-left: 400px;
+}
